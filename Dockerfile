@@ -1,40 +1,23 @@
-# Use official PHP image with Apache
-FROM php:8.2-apache
+FROM php:8.2-fpm
 
-# Install system dependencies
+WORKDIR /var/www
+
 RUN apt-get update && apt-get install -y \
-    git \
-    unzip \
-    libzip-dev \
-    zip \
-    libpng-dev \
-    libonig-dev \
-    libxml2-dev \
-    curl \
-    && docker-php-ext-install pdo_mysql mbstring zip exif pcntl bcmath gd
+        libpq-dev \
+        libzip-dev \
+        zip unzip git curl nano \
+        libfreetype6-dev \
+        libjpeg62-turbo-dev \
+        libpng-dev \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install -j$(nproc) gd pdo pdo_pgsql zip
 
-# Enable Apache mod_rewrite
-RUN a2enmod rewrite
-
-# Set working directory
-WORKDIR /var/www/html
-
-# Copy existing application
-COPY . /var/www/html
-
-# Set permissions
-RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html/storage
-
-# Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Install Laravel dependencies
-RUN composer install --optimize-autoloader --no-dev
+COPY . /var/www
 
-# Laravel-specific setup (adjust as needed)
-RUN php artisan config:cache \
- && php artisan route:cache \
- && php artisan view:cache
+RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
-EXPOSE 80
+RUN php artisan config:cache
+
+CMD php artisan serve --host=0.0.0.0 --port=8000
