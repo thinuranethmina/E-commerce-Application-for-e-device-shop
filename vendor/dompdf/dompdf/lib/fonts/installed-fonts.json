@@ -1,0 +1,40 @@
+{
+    "nunito": {
+        "200_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_200_italic_95f76d9b0b415eb418591c89bdce7255",
+        "300_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_300_italic_c40aa8ba1b24c6f7d8b3e821b2b851a6",
+        "italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_italic_c723218ddeb7f87a083d9429d5586841",
+        "500_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_500_italic_466193ef8a023e19163107af9e3b7f18",
+        "600_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_600_italic_85a5da0c65abf4140a2708e3d967bc47",
+        "bold_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_bold_italic_4ce474138c89aefe1691f2bed545ffba",
+        "800_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_800_italic_8a13368f152b34cb5170b7a00ccde8be",
+        "900_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_900_italic_576ac8a9ebb8df727b47a588767a7e4d",
+        "200": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_200_9b4e5bdfa34481384d3cd9085ed8a88d",
+        "300": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_300_ed16c859231e9de60529ee8e2539295f",
+        "normal": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_normal_ee99570c2d40db4ca7cb27ecfa07bd0e",
+        "500": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_500_1337283c03afe8faf9193502488bd31d",
+        "600": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_600_462968132f9bb0b300c9ac89cb99aa5d",
+        "bold": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_bold_8878d120ae1cf02db589138e103b16c4",
+        "800": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/nunito_800_53ad2bcdbfb965de000560e2adeb9889",
+        "900": "nunito_900_edf8aec0295cb9650917b7e466e89097"
+    },
+    "poppins": {
+        "100_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_100_italic_727dd5397d8b7035fdbbcc0aa9ee792e",
+        "200_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_200_italic_d530784dfe6b65a7b852f7405640887d",
+        "300_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_300_italic_05d5428caf130c8b90ad5d340528297e",
+        "italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_italic_62165265d4ed673868a1db4421a196c0",
+        "500_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_500_italic_1dde4e128df6db1484a4330e6635f4f4",
+        "600_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_600_italic_61021eb1e3e2be5bdb30ceaf8c08eea9",
+        "bold_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_bold_italic_eb3bc1e0116847e10d1cce7a4bd5cfa5",
+        "800_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_800_italic_c4e22d267d00e85404022163ddbc807c",
+        "900_italic": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_900_italic_379bdb0434f36d724eea67e47ff0eca9",
+        "100": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_100_4e13de05189818c2e99b59fa2528fcb8",
+        "200": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_200_75d73e88376f8595c29b2ee29c7d8cf2",
+        "300": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_300_71a46324c5def983e80884621dcd061b",
+        "normal": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_normal_12f61e1aca2bd22472c17cf0465b304e",
+        "500": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_500_eaa67a2dcd54166f62e0cc3adc7e1b71",
+        "600": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_600_a68d0fa714114c7ef3a2a04bbe8fda45",
+        "bold": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_bold_dd0c9eff9089b312c7d5e9a1f45059a4",
+        "800": "\/home\/capturez-digimax\/htdocs\/digimax.capturez.net\/vendor\/dompdf\/dompdf\/lib\/fonts\/poppins_800_2c180a9fb9282729a9bba6454e868877",
+        "900": "poppins_900_8a18d53cb0b26396514d83d043131d7e"
+    }
+}
