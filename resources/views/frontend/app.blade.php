@@ -24,7 +24,7 @@
 
     <link rel="stylesheet"
         href="{{ asset('assets/frontend/css/frontend.css') }}?v={{ filemtime(public_path('assets/frontend/css/frontend.css')) }}">
-    @vite('resources/css/app.css')
+
 </head>
 
 <body>
