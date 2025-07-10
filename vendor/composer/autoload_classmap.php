@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Commands\\GenerateCommand' => $vendorDir . '/fly-apps/dockerfile-laravel/app/Commands/GenerateCommand.php',
     'App\\Exports\\PaymentsExport' => $baseDir . '/app/Exports/PaymentsExport.php',
     'App\\Http\\Controllers\\Backend\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Backend/Auth/LoginController.php',
     'App\\Http\\Controllers\\Backend\\BackupController' => $baseDir . '/app/Http/Controllers/Backend/BackupController.php',
@@ -58,7 +59,9 @@ return array(
     'App\\Models\\VariationValues' => $baseDir . '/app/Models/VariationValues.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Rules\\ReCaptcha' => $baseDir . '/app/Rules/ReCaptcha.php',
+    'App\\Services\\File' => $vendorDir . '/fly-apps/dockerfile-laravel/app/Services/File.php',
     'App\\Services\\FileUploader' => $baseDir . '/app/Services/FileUploader.php',
+    'App\\Services\\Scanner' => $vendorDir . '/fly-apps/dockerfile-laravel/app/Services/Scanner.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Barryvdh\\DomPDF\\Facade\\Pdf' => $vendorDir . '/barryvdh/laravel-dompdf/src/Facade/Pdf.php',
     'Barryvdh\\DomPDF\\PDF' => $vendorDir . '/barryvdh/laravel-dompdf/src/PDF.php',

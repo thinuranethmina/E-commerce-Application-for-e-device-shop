@@ -550,11 +550,13 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
         array (
             0 => __DIR__ . '/../..' . '/database/seeders',
             1 => __DIR__ . '/..' . '/laravel/pint/database/seeders',
+            2 => __DIR__ . '/..' . '/fly-apps/dockerfile-laravel/database/seeders',
         ),
         'Database\\Factories\\' => 
         array (
             0 => __DIR__ . '/../..' . '/database/factories',
             1 => __DIR__ . '/..' . '/laravel/pint/database/factories',
+            2 => __DIR__ . '/..' . '/fly-apps/dockerfile-laravel/database/factories',
         ),
         'Cron\\' => 
         array (
@@ -592,6 +594,7 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
         array (
             0 => __DIR__ . '/../..' . '/app',
             1 => __DIR__ . '/..' . '/laravel/pint/app',
+            2 => __DIR__ . '/..' . '/fly-apps/dockerfile-laravel/app',
         ),
     );
 
@@ -606,6 +609,7 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
     );
 
     public static $classMap = array (
+        'App\\Commands\\GenerateCommand' => __DIR__ . '/..' . '/fly-apps/dockerfile-laravel/app/Commands/GenerateCommand.php',
         'App\\Exports\\PaymentsExport' => __DIR__ . '/../..' . '/app/Exports/PaymentsExport.php',
         'App\\Http\\Controllers\\Backend\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Backend/Auth/LoginController.php',
         'App\\Http\\Controllers\\Backend\\BackupController' => __DIR__ . '/../..' . '/app/Http/Controllers/Backend/BackupController.php',
@@ -658,7 +662,9 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
         'App\\Models\\VariationValues' => __DIR__ . '/../..' . '/app/Models/VariationValues.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Rules\\ReCaptcha' => __DIR__ . '/../..' . '/app/Rules/ReCaptcha.php',
+        'App\\Services\\File' => __DIR__ . '/..' . '/fly-apps/dockerfile-laravel/app/Services/File.php',
         'App\\Services\\FileUploader' => __DIR__ . '/../..' . '/app/Services/FileUploader.php',
+        'App\\Services\\Scanner' => __DIR__ . '/..' . '/fly-apps/dockerfile-laravel/app/Services/Scanner.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Barryvdh\\DomPDF\\Facade\\Pdf' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/Facade/Pdf.php',
         'Barryvdh\\DomPDF\\PDF' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/PDF.php',
